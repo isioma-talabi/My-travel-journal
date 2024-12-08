@@ -6,13 +6,12 @@
 
 body {
   margin: 0;
+  font-family: Inter, sans-serif;
 }
-
-
 
 /* Header Styling */
 header {
-  background-color: #F55A5A;
+  background-color: #f55a5a;
   width: 100%;
   height: 60px;
   display: flex;
@@ -23,16 +22,75 @@ header {
 }
 
 header > p {
-  font-family: Inter, sans-serif;
   color: white;
   font-size: 0.9rem;
   font-weight: 500;
   margin: 0;
   letter-spacing: -3.5%;
-
 }
 
 header > img {
   width: 24px;
   height: 24px;
+}
+
+/* Card Styling */
+
+.card-widget {
+  display: flex;
+  padding: 0px 350px;
+  padding-block: 30px;
+}
+
+.marker {
+  width: 7px;
+  margin-right: 4px;
+}
+
+.main-image-container {
+  width: 125px;
+  height: 168px;
+  overflow: hidden;
+  border-radius: 5px;
+  flex-shrink: 0;
+  margin-right: 19px;
+}
+
+.main-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+span.country {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  margin-right: 12px;
+}
+
+.info-container a {
+  color: #2b283a;
+  font-size: 0.7rem;
+}
+
+.info-container a:visited {
+  color: #918e9b;
+}
+
+h1.card-title {
+  margin-top: 7px;
+  margin-bottom: 17px;
+  font-size: 1.6rem;
+  font-weight: 700;
+}
+
+.card-dates {
+  font-weight: bold;
+  font-size: 0.6rem;
+}
+
+.card-text {
+  line-height: 1.5;
+  font-size: 0.8rem;
+  overflow: hidden;
 }
